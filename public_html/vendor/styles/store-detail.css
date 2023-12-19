@@ -1,0 +1,376 @@
+.storeCards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+.itemStoreCard {
+  position: relative;
+  border: 1px solid #b1b1b1;
+  padding: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: white;
+}
+.itemStoreCard:hover {
+  box-shadow: 0px 2px 1px 2px #d0d0d0a8;
+  opacity: 1;
+}
+.dissabledStoritem {
+  cursor: not-allowed;
+  filter: opacity(0.5);
+}
+.itemCardBadge {
+  position: absolute;
+  top: 0;
+  left: -1px;
+  background: #04bd7f;
+  color: white;
+  font-weight: 700;
+  padding: 1px 10px;
+  border-radius: 0 0 19px 0;
+}
+.addTocartBtnBlock {
+  background: #34bdae;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.QuantityBlock {
+  background: white;
+  border: 1px solid #34bdae;
+  color: #34bdae;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.minus,
+.pluse {
+  width: 40%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.countAll {
+  width: 20%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftcarCalculationtBox {
+  padding: 0 10px 0 10px;
+  background: white;
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+}
+.topUserManageBox {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  margin: 0 0 10px 0;
+}
+
+.createUserBtn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 23px;
+  font-size: x-large;
+  color: white;
+  background: #34bdae;
+  text-transform: capitalize;
+  font-weight: 800;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.createUserBtn:hover {
+  box-shadow: 0px 1px 1px 2px #d9d9d982;
+  background: #2fad9f;
+}
+
+.cartBlock {
+  padding: 10px;
+  border: 1px solid #cacaca;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.cartbody {
+  margin-bottom: 5px;
+  display: flex;
+  padding: 10px;
+  background: #f2f2f2;
+  border: 1px solid rgb(214, 214, 214);
+  position: relative;
+}
+.cartImg {
+  width: 20%;
+}
+.cartImg img {
+  height: 79px;
+  width: 100%;
+}
+.cartContent {
+  padding-left: 10px;
+  width: 80%;
+}
+.cartItemname {
+  font-size: 15px;
+}
+.cartItemname {
+  font-size: 15px;
+  color: #66728e;
+  font-weight: 600;
+  margin: 0;
+  text-transform: capitalize;
+}
+.cartItemPrice {
+  color: black;
+}
+.AddToCartBtn {
+  position: absolute;
+  width: 100px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.selector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px 0 5px 22px;
+}
+
+.bottumBtnBox {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.submitOrderBtn {
+  background: #34bdae;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.clearOrderBtn {
+  background: #e00202;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.submitOrderBtn:hover {
+  background: #2da89a;
+  cursor: pointer;
+  color: white;
+}
+.clearOrderBtn:hover {
+  background: #a82d2d;
+  cursor: pointer;
+  color: white;
+}
+
+.search {
+  position: relative;
+}
+.suggestions {
+  position: absolute;
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 2px 0px 2px #e8e8e8bd;
+  width: 100%;
+  z-index: 111;
+}
+.suggestions ul {
+  padding: 0;
+  margin: 0;
+}
+.suggestions ul li {
+  padding: 5px 10px;
+  list-style-type: none;
+  color: black;
+  cursor: pointer;
+  margin: 0 0 2px 0;
+}
+.suggestions ul li:hover {
+  background-color: #defffb;
+}
+
+.displayNone {
+  display: none;
+}
+
+.selecetdInputBox {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 1.25rem + 2px);
+  padding: 0.625rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #8898aa;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #cad1d7;
+  border-radius: 0.375rem;
+  box-shadow: none;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+.bg-close {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewbox='0 0 40 40'%3E%3Cpath d='M 10,10 L 30,30 M 30,10 L 10,30' stroke='black' stroke-width='4' stroke-linecap='butt' /%3E%3C/svg%3E");
+  background-size: 100%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  margin-top: 0;
+}
+
+.valculationBox {
+  padding: 10px 5px;
+}
+
+.valculationBox ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.valculationBox ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.finalAmountBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-top: 1px solid #dbdbdb;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.cartBoxHeading {
+  color: black;
+}
+
+.titlePriceBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .storeCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .selectBox {
+    width: 70%;
+    background: white;
+    border: 1px solid #34bdae;
+    padding: 6px 15px;
+  }
+  .itemCardBadge {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    background: #04bd7f;
+    color: white;
+    font-weight: 700;
+    padding: 1px 10px;
+    border-radius: 0 0 19px 0;
+    font-size: 12px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .storeCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .selectBox {
+    width: 30%;
+    background: white;
+    border: 1px solid #34bdae;
+    padding: 6px 15px;
+  }
+  .itemCardBadge {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    background: #04bd7f;
+    color: white;
+    font-weight: 700;
+    padding: 1px 10px;
+    border-radius: 0 0 19px 0;
+    font-size: 12px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .storeCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .selectBox {
+    width: 50%;
+    background: white;
+    border: 1px solid #34bdae;
+    padding: 6px 15px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .storeCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .itemCardBadge {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    background: #04bd7f;
+    color: white;
+    font-weight: 700;
+    padding: 1px 10px;
+    border-radius: 0 0 19px 0;
+    font-size: 14px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .storeCards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+}

@@ -1,0 +1,145 @@
+.formSection {
+    padding: 40px 0;
+    background-color: #2F6F68;
+}
+.formSection .formWrap {
+    display: block;
+    max-width:500px;
+    margin: 0 auto;
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 30px;
+}
+.formSection .formWrap h3 {
+    font-size: 32px;
+    color: #000000;
+    line-height: 45px;
+}
+.formSection .formWrap p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #828282;
+}
+.formSection .formTitle {
+    text-align: center;
+    padding-bottom: 25px;
+}
+.Forgot {
+    text-align: right;
+    padding-bottom: 10px;
+}
+.Forgot a, .create a {
+    font-size: 18px;
+    line-height: 31px;
+    color: #2F6F68;
+}
+.Forgot a:hover, .Forgot a:focus, .create a:hover, .create a:focus {
+    color: #2F6F68;
+}
+.btnBlock {
+    padding: 0  0 20px;
+    text-align: center;
+}
+.btnBlock .oxensBtn {
+    display: inline-block;
+    min-width:330px;
+    padding: 12px 15px;
+    background-color: #2F6F68;
+    border: 1px solid #2F6F68;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    transition: all ease .4s;
+    border-radius: 6px;
+    font-family: 'ProximaNova-Semibold';
+}
+.btnBlock .oxensBtn:hover, .btnBlock .oxensBtn:focus {
+    background-color: #fff;
+    color: #2F6F68;
+    box-shadow: none;
+}
+.create {
+    text-align: center;
+}
+.formSection .email, .formSection .password, .formSection .name, .formSection .react-datepicker-ignore-onclickoutside, .formSection .number {
+    background-image: url('https://oxens.ezxdemo.com/images/email-icon.png');
+    background-repeat: no-repeat;
+    background-position: 20px 50%;   
+}
+.formSection .password {
+    background-image: url('https://oxens.ezxdemo.com/images/password-icon.png');
+}
+.formSection .name {
+    background-image: url('https://oxens.ezxdemo.com/images/user-icon.png');
+}
+.formSection .number {
+    position: relative;
+    background-image: url('https://oxens.ezxdemo.com/images/flag.svg');
+    padding-left: 70px;
+}
+.formGroup .borderLeft {
+    position: absolute;
+    left: 57px;
+    top: 50%;
+    width: 1px;
+    height: 32px;
+    background-color: #BBBFCA;
+    content: "";
+    z-index: 1;
+    transform: translateY(-50%);
+    border-radius: 3px;
+}
+
+
+
+
+/* Responisve CSS */
+@media screen and (max-width:767px) {
+    .formSection {
+        padding: 80px 0;
+    } 
+    .formSection .formWrap  {
+        max-width: 100%;
+    }
+    .formSection .formTitle {
+        padding-bottom: 20px;
+    }
+    .formSection .formWrap h3 {
+        font-size: 28px;
+        line-height: normal;
+    }
+    .formSection .formWrap p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:575px) {
+    .formSection {
+        padding: 40px 0;
+    } 
+    .formSection .formWrap {
+        padding: 30px 15px;
+    }
+    .formSection .formWrap h3 {
+        font-size: 24px;
+    }
+    .btnBlock {
+        padding: 15px 0;
+    }
+    .btnBlock .oxensBtn {
+        min-width: 180px;
+    }
+    .btnBlock .oxensBtn {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:479px) {
+    .formSection .formWrap h3 {
+        font-size: 22px;
+    }  
+}
+
+
+
+

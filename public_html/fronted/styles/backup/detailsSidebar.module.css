@@ -1,0 +1,53 @@
+.filterBtn {
+  display: none;
+}
+.sidebar {
+  border-right: 1px solid #C2C2C2;
+  height: 100%;
+}
+.sidebar ul li {
+  border-bottom: 1px solid #e0e0ee;
+}
+
+.sidebar ul li a {
+  padding: 22px 15px;
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4F4F4F;
+}
+.sidebar ul li a:hover, .sidebar ul li a:focus, .sidebar ul li a:hover span, .sidebar ul li a:focus span {
+  color: #2F6F68;
+}
+.sidebar ul li a span {
+  color: #bdbdbd;
+  margin: 0 10px;
+  transition: all ease .4s;
+}
+.sidebar ul li a div {
+  vertical-align: middle;
+}
+.sidebar ul {
+  padding-right: 10px;
+}
+
+
+
+/* Responsive CSS */
+@media screen and (max-width:991px) {
+  .filterBtn {
+    display: inline-block;
+    padding: 12px 15px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2F6F68;
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+  }
+  .sidebar {
+    border: none;
+  }
+}

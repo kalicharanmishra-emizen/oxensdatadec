@@ -1,0 +1,840 @@
+.detailBanner {
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fff;
+}
+.detailBanner .detailTitle span {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    position: relative;
+    bottom: -1px;
+    font-size: 20px;
+    font-family: 'ProximaNova-Semibold';
+}
+.detailBanner .detailTitle span.active {
+    border-bottom: 2px solid #2F6F68;
+    color: #2F6F68;
+}
+.detailBanner .detailTitle span::after {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1px;
+    height: 60px;
+    background-color: #e0e0e0;
+    transform: translateY(-50%);
+    content: "";
+    z-index: 1;
+}
+.detailBanner [class*="col-"]:first-child .detailTitle span:before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 1px;
+    height: 60px;
+    background-color: #e0e0e0;
+    transform: translateY(-50%);
+    content: "";
+    z-index: 1;
+}
+.orderDetails {
+	background-color: #fff;
+	padding: 50px 0;
+}
+.orderDetails .orderInfo {
+	overflow: hidden;
+	display: inline-block;
+	width: 100%;
+}
+.orderDetails .orderInfo .imgBlock {
+	float: left;
+	margin-right: 20px;
+	border: 0.8px solid #E0E0E0;
+	border-radius: 4px;
+	padding: 2px;
+	width: 98px;
+}
+.orderInfo .imgBlock img {
+	border-radius: 4px;
+}
+.orderInfo .orderWrap {
+	overflow: hidden;
+}
+.orderInfo .orderWrap h4 {
+	font-size: 18px;
+	color: #333333;
+}
+.orderInfo .orderWrap p {
+	font-size: 13px;
+	color: #828282;
+}
+.orderDetails .priceDetails {
+	text-align: right;
+	float: right;
+}
+.orderDetails .priceDetails h6 {
+	font-size: 20px;
+	color: #333333;
+}
+.orderDetails .priceDetails p {
+	color: #2F6F68;
+	font-size: 13px;
+	padding-bottom: 0;
+	cursor: pointer;
+}
+.orderDetails .orderSpace {
+	padding: 25px 17px;
+	border: 0.8px solid #E0E0E0;
+	border-radius: 6px;
+}
+.orderDetails .singleOrder {
+	padding-bottom: 20px;
+}
+.orderDetails .singleOrder:last-child {
+	padding-bottom: 0;
+}
+.orderDetails .addItem {
+	text-align: right;
+}
+.orderDetails .addItem a {
+	font-size: 18px;
+	color: #2F6F68;
+	text-decoration: underline;
+	font-family: 'ProximaNova-Semibold';
+}
+
+.delivery {
+	border: 0.8px solid #E0E0E0;
+	border-radius: 6px;
+}
+.delivery .deliveryInfo h6 {
+	font-size: 16px;
+	color: #2F6F68;
+	padding: 20px 25px;
+	font-family: 'ProximaNova-Regular';
+}
+.delivery .deliveryInfo h6 span {
+	float: right;
+	color: #131313;
+	font-family: 'ProximaNova-Semibold';
+}
+.delivery .subtotal {
+	border-top: 0.8px solid #E0E0E0;
+	border-radius: 6px;
+	padding: 20px 25px;
+}
+.delivery .subtotal ul li {
+	color: #333333;
+	font-size: 18px;
+	padding-bottom: 25px;
+}
+.delivery .subtotal ul li div {
+	vertical-align: middle;
+}
+.delivery .subtotal ul li span {
+	float: right;
+	position: relative;
+}
+.delivery .subtotal ul li span.mrp {
+	color: #2F6F68;
+}
+.delivery .subtotal ul li span.tip .formCantrol {
+	border: 0.8px solid #E0E0E0;
+	border-radius: 4px;
+	padding: 0 6px 0 20px;
+	width: 57px;
+	text-align: left;
+	height: 27px;
+	color: #000;
+}
+.delivery .subtotal ul li span.currency {
+	position: absolute;
+	left: 7px;
+	top: 0;
+	content: '';
+	float: none;
+}
+.delivery .request .formCantrol {
+	padding: 10px 15px;
+}
+.delivery .request .formCantrol:focus {
+	border-color: #2f6f68;
+}
+.delivery .totalInfo {
+	padding: 15px 0;
+	margin: 30px 0;
+	border-top: 0.8px dashed #E0E0E0;
+	border-bottom: 0.8px dashed #E0E0E0;  
+}
+.delivery .totalInfo h4 {
+	color: #333333;
+	font-size: 22px;
+	padding-bottom: 0;
+	font-family: 'ProximaNova-Bold';
+}
+.delivery .totalInfo h4 span {
+	float: right;
+}
+.delivery .subtotal .btnBlock a {
+	text-align: center;
+	margin: 0 auto;
+	display: inline-block;
+	background-color: #2F6F68;
+	border-radius: 6px;
+	font-size: 20px;
+	width: 100%;
+	color: #fff;
+	padding: 15px;
+	border: 1px solid #2F6F68;
+	transition: all ease .4s;
+}
+.delivery .subtotal .btnBlock a:hover {
+	background-color: #fff;
+	color: #2F6F68;
+}
+.delivery .subtotal ul li strong {
+	padding-right: 25px;
+	font-weight: 300;
+	margin-top: -10px;
+}
+
+.delivery .subtotal ul li .serviceFree {
+	padding-right: 13px;
+	font-weight: 300;
+	
+}
+
+.orderSpan {
+	color: #2F6F68;
+	font-family: 'ProximaNova-Regular';
+	cursor: pointer;
+}
+.orderSpan div {
+	vertical-align: middle;
+	top: -2px;
+	margin-right: 2px !important;
+}
+
+.ModalCustom {
+	max-width: 725px;
+	/* border: 15px solid transparent; */
+	background-color: #fff;
+}
+.ModalCustom .modalHeader {
+	text-align: center;
+	margin: 0 40px;
+}
+.ModalCustom .modalHeader h5 {
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 0;
+	font-size: 24px;
+}
+.ModalCustom .modalBody {
+	text-align: center;
+	padding: 35px 0;
+}
+.ModalCustom .modalBody p {
+	padding-bottom: 0;
+	font-size: 18px;
+	color: #4F4F4F;
+}
+.modalFooter {
+	padding: 25px 35px;
+	box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.15);
+}
+.modalFooter [class*="col-"] {
+	margin-bottom: 10px;
+}
+.themeBtn {
+	display: inline-block;
+	min-width: 100%;
+	padding: 12px 15px;
+	background-color: #2F6F68;
+	border: 1px solid #2F6F68;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	outline: none;
+	transition: all ease .4s;
+	border-radius: 6px;
+	font-family: 'ProximaNova-Semibold';
+}
+.themeBtn:hover, .themeBtn:focus {
+	background-color: #fff;
+color: #2F6F68;
+box-shadow: none;
+}
+.ModalPayment {
+	position: relative;
+	background-color: #2F6F68;
+	text-align: center;
+	max-width: 670px;
+	border-radius: 40px;
+	padding: 125px 0 0 0;
+}
+.ModalPayment:before {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 90%;
+	height: 90%;
+	background-image: url('https://oxens.ezxdemo.com/images/popup-background.svg');
+	content: '';
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ModalPayment .ImgBlock {
+	margin-bottom: 40px;
+}
+.ModalPayment h6 {
+	color: #fff;
+	font-size: 46px;
+	padding-bottom: 0;
+}
+.ModalPayment p {
+	color: #fff;
+	font-size: 22px;
+}
+.ModalPayment .themeBtn {
+	background-color: #fff;
+	color: #2F6F68;
+	min-width: 365px;
+}
+
+/* Modal CSS */
+.ModalCustom {
+	max-width: 600px;
+	background-color: #fff;
+	padding: 25px;
+	border-radius: 6px;
+  }
+  .themeBtn {
+	display: inline-block;
+	min-width: 100%;
+	padding: 12px 15px;
+	background-color: #2F6F68;
+	border: 1px solid #2F6F68;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	outline: none;
+	transition: all ease .4s;
+	border-radius: 6px;
+	font-family: 'ProximaNova-Semibold';
+  }
+  .themeBtn:hover, .themeBtn:focus {
+	color: #2F6F68;
+	background-color: #fff;
+	border: 1px solid #2F6F68;
+  }
+  .modalHeader {
+	padding: 0;
+  }
+  .restoReviewPopup .modalHeader {
+	padding: 1rem 1rem;
+  }
+  
+  .ModalCustom .titleOptional {
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	font-family: 'ProximaNova-Bold';
+	color: #333;
+	padding-bottom: 15px;
+  }
+  .ModalCustom .titleOptional span {
+	color: #828282;
+	font-family: 'ProximaNova-Regular';
+  }
+  .modalHeader span {
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: 'ProximaNova-Regular';
+	color: #828282;
+  }
+  .customizePrice {
+	float: right;
+	color: #828282;
+	font-size: 18px;
+	font-family: 'ProximaNova-Regular';
+  }
+  .checkInput {
+	opacity: 0;
+	visibility: hidden;
+	position:absolute;
+  }
+  .checkmark {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	height: 18px;
+	width: 18px;
+	background-color: #fff;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	transform: translateY(-50%);
+  }
+  .checkmark::after {
+	left: 10px;
+	top: 6px;
+	width: 6px;
+	height: 10px;
+	border: solid #2F6F68;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	opacity: 0;
+	content: "";
+	margin-left: 5px;
+	margin-top: 1px;
+  }
+  .checkInput:checked ~ .checkmark {
+	border-color: #2F6F68;
+  }
+  .checkInput:checked ~ .checkmark::after {
+	display: block;
+	opacity: 1;
+  }
+  .checkInput ~ .checktext, .checkInput ~ .radiotext {
+	display: inline-block;
+	margin-left: 20px;
+	color: #333;
+	font-size: 16px;
+	padding-left: 10px;
+  }
+  .checkboxGroup label {
+	cursor: pointer;
+  }
+  .checkInput:checked ~ .checktext {
+	color: #2F6F68;
+  }
+  .infoLink div {
+	vertical-align: middle;
+  }
+  .infoLink {
+	  color: #4F4F4F;
+	  font-size: 16px;
+  }
+  .infoLink {
+	  color: #4f4f4f !important;
+  }
+  body .infoLink span {
+	  color: #2F6F68;
+  }
+
+/* Order Details Css */
+.MyOrderDetails {
+	background-color: #fff;
+	padding: 50px 0;
+}
+.orderDetails {
+	background-color: #FAFAFA;
+	box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.15), 1px 1px 2px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+	padding: 30px 20px;
+}
+.orderDetails h3 {
+	font-size: 24px;
+	color: #000;
+	font-weight: 600;
+	padding-bottom: 25px;
+}
+.orderDetails .orderBox {
+	background-color: #fff;
+	box-shadow: -1px -1px 2px rgba(0, 0, 0, 0.1), 1px 1px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	padding: 30px 15px;
+}
+.ukRestaurant {
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+}
+.ukRestaurant .imgBlock {
+	background: #FFFFFF;
+	border: 0.8px solid #E0E0E0;
+	border-radius: 4px;
+	float: left;
+	padding: 2px;
+	height: 92px;
+	margin-right: 20px;
+}
+.ukRestaurant .imgBlock img {
+	width: 90px;
+	object-fit: cover;
+}
+.ukRestaurant .orderWrap {
+	overflow: hidden;
+}
+.ukRestaurant .orderWrap h4 {
+	font-size: 20px;
+	color: #333333;
+	padding-bottom: 5px;
+}
+.ukRestaurant .orderWrap p {
+	color: #828282;
+	font-size: 14px;
+}
+.orderBox .review li {
+	color: #2F6F68;
+	font-size: 16px;
+	cursor: pointer;
+}
+.intesBox {
+	border-bottom: 1px solid #E0E0E0;
+	margin-bottom: 15px;
+}
+.intesBox h4 {
+	font-size: 18px;
+	color: #333333;
+	padding-top: 15px;
+}
+
+.productDetails {
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	padding: 15px 0;
+}
+.productDetails .imgBlock {
+	float: left;
+	margin-right: 12px;
+}
+.productDetails .imgBlock img {
+	width: 12px;
+}
+.productDetails .orderWrap {
+	overflow: hidden;
+}
+.productDetails .orderWrap h4 {
+	font-size: 16px;
+	color: #4F4F4F;
+	font-weight: 400;
+	padding-bottom: 5px;
+}
+.productDetails .orderWrap p {
+	color: #828282;
+	font-size: 13px;
+}
+.orderWrap .towbox {
+	color: #4F4F4F;
+	font-size: 16px;
+	border-radius: 2px;
+	border: 0.8px solid #2F6F68;
+	padding: 2px 6px;
+}
+.orderWrap .Price {
+	color: #4F4F4F;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.productDetails .rightPrice {
+	text-align: right;
+	float: right;
+	font-size: 16px;
+	color: #4F4F4F;
+}
+.orderBox .itemsFor {
+	border-bottom: 1px solid #ddd;
+}
+.orderBox .Undelivered {
+	float: right;
+}
+.orderBox .orderId ul {
+	padding-top: 10px;
+}
+.orderBox .orderId ul li {
+	font-size: 14px;
+	color: #4F4F4F;
+	padding-bottom: 10px;
+}
+.orderBox .orderId ul li span {
+	color: #a8a8a8;
+}
+.orderBox .orderId ul li .onlines {
+	color: #3AB757;
+}
+
+
+.restoReviewPopup {
+	text-align: center;
+	padding: 30px;
+	background-color: #fff;
+    max-width: 768px;
+}
+.restoReviewPopup .modalHeader h5 {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 0;
+}
+.foodRating span {
+	position: relative;
+	display: inline-block;
+}
+.foodRating:not(:checked) label {
+	/* float:right; */
+	width:105px;
+	height: 105px;
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+	font-size:30px;
+	color:#ccc;
+	background-color: #F1F1F3;
+	border-radius: 100%;
+	line-height: 145px;
+	margin: 0 8px;
+	transition: all ease .4s;
+	margin-bottom: 12px;
+}
+.foodRating span span {
+	display: block;
+	color: #000000;
+}
+.foodRating input:checked ~ label {
+	background-color: #2F6F68;  
+}
+.foodRating:not(:checked) label:hover {
+	background-color: #2F6F68;   
+}
+
+
+.dirverImg .imgBlock {
+    width: 138px;
+    height: 138px;
+    overflow: hidden;
+    display: inline-block;
+    border: 1px solid #2F6F68;
+    border-radius: 100%;
+}
+.dirverImg .imgBlock img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+}
+.dirverPopup .foodRating {
+    padding-top: 30px;
+}
+.reviewPopupWrap .dirverImg {
+    margin-top: 50px;
+}
+.dirverPopup .foodRating {
+    padding-top: 30px;
+}
+
+.dirverPopup .foodRating:not(:checked) label {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: transparent;
+	border-radius: 0;
+	font-size: 66px;
+	margin-right: 23px;
+	margin-bottom: 0;
+	float: right;
+	color: #ccc;
+}
+.dirverPopup .foodRating:not(:checked) label:hover, .dirverPopup .foodRating:not(:checked) > label:hover ~ label {
+  color: #F4FF00;  
+}
+.dirverPopup .foodRating input:checked + label:hover, .dirverPopup .foodRating input:checked + label:hover ~ label, .dirverPopup .foodRating input:checked ~ label:hover, .dirverPopup .foodRating input:checked ~ label:hover ~ label, .dirverPopup .foodRating label:hover ~ input:checked ~ label {
+  color: #F4FF00;
+}
+.foodRating {
+	position: relative;
+	display: inline-block;
+	padding: 60px 10px 20px;
+}
+.foodRating:not(:checked) input {
+	position:absolute;
+	top:-9999px;
+}
+.dirverPopup .foodRating:not(:checked) label {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	background-color: transparent;
+	border-radius: 0;
+	font-size: 66px;
+	margin-right: 23px;
+	margin-bottom: 0;
+	float: right;
+}
+.foodRating:not(:checked) > label:before {
+	content: '★ ';
+}
+.reviewPopupWrap .oxensBtn {
+	display: inline-block;
+	min-width:356px;
+	padding: 12px 15px;
+	background-color: #2F6F68;
+	border: 1px solid #2F6F68;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	outline: none;
+	transition: all ease .4s;
+	border-radius: 6px;
+	font-family: 'ProximaNova-Semibold';
+}
+.reviewPopupWrap .oxensBtn:hover, .reviewPopupWrap .oxensBtn:focus {
+	background-color: #fff;
+	color: #2F6F68;
+	border-color: #2F6F68;
+}
+.closeButton {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    width: 26px !important;
+    height: 20px;
+    background: #fff;
+    position: relative;
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+    cursor: pointer;
+    z-index: 999;
+  }
+  .closeButton:before, .closeButton:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 2px;
+    background: #333;
+    content: "";
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+    -webkit-transform: translateY(7px) rotateZ(-45deg);
+    -ms-transform: translateY(7px) rotateZ(-45deg);
+    transform: translateY(7px) rotateZ(-45deg);
+    
+   
+  }
+  .closeButton:after {
+    top: 14px;
+    -webkit-transform: translateY(-7px) rotateZ(45deg);
+    -ms-transform: translateY(-7px) rotateZ(45deg);
+    transform: translateY(-7px) rotateZ(45deg);
+  }
+
+
+
+
+
+
+
+
+/* Responsive css */
+@media screen and (max-width: 991px) {
+	.orderDetails .orderSpace {
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.detailBanner .detailTitle span {
+		font-size: 18px;
+		padding: 10px;
+	}
+	.detailBanner [class*="col-"]:first-child .detailTitle span:before, .detailBanner .detailTitle span::after {
+		background-color: transparent;
+	}
+	.ModalPayment {
+		margin:  15px;
+	}
+	.ModalPayment h6 {
+		font-size: 38px;
+	}
+	.ModalPayment p {
+		font-size: 18px;
+	}
+
+}
+@media screen and (max-width: 575px) {
+	.detailBanner .detailTitle span {
+		font-size: 16px;
+	}
+	.orderDetails .orderInfo .imgBlock {
+		width: 70px;
+	}
+	.themeBtn {
+		font-size: 16px;
+	}
+	.ModalPayment {
+		padding: 50px 0 0 0;
+	}
+}
+@media screen and (max-width: 479px) {
+	.delivery .subtotal {
+		padding: 20px 10px;
+	}
+	.orderDetails {
+		padding: 30px 0;
+	}
+	.orderDetails .orderInfo .imgBlock {
+		display: block;
+		float: none;
+	}
+	.ModalCustom .modalHeader {
+		margin: 0 15px;
+	}
+	.ModalCustom .modalBody {
+		padding: 15px;
+	}
+	.ModalCustom .modalBody p {
+		font-size: 15px;
+	}
+	.modalFooter {
+		padding: 15px;
+	}
+	.ModalPayment h6 {
+		font-size: 30px;
+	}
+	.ModalPayment p {
+		font-size: 16px;
+	}
+	.ModalPayment .themeBtn {
+		min-width: 100%;
+	}
+}
+@media screen and (max-width: 359px) {
+	.orderDetails .orderSpace .singleOrder [class*="col-"] {
+		flex: 0 0 auto;
+		width: 100%;	
+	}
+	.orderDetails .orderInfo .imgBlock {
+		display: inline-block;
+		float: left;
+		margin-right: 8px;
+	}
+	.orderDetails .priceDetails {
+		text-align: left;
+		float: none;
+	}
+	.orderInfo .orderWrap p {
+		font-size: 12px;
+	}
+	.orderInfo .orderWrap h4 {
+		font-size: 15px;
+		padding-bottom: 5px;
+	}
+	.ModalPayment h6 {
+		font-size: 26px;
+	}
+	.ModalPayment p {
+		font-size: 14px;
+	}
+}

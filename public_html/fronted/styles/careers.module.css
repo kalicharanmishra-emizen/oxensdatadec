@@ -1,0 +1,143 @@
+.banner {
+    position: relative;
+    padding: 70px 15px;
+    text-align: center;
+    background-image: url('https://oxens.ezxdemo.com/images/background1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(47, 111, 104, 0.85);
+    content: "";
+    z-index: 1;
+}
+.banner .container {
+    position: relative;
+    z-index: 2;
+}
+.banner h3 {
+    color: #fff;
+    font-size: 40px;
+}
+.banner p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.careersWrap {
+    background-color: #fff;
+    padding: 50px 0;
+}
+.careerForm {
+    max-width: 835px;
+    margin: 0 auto;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0;
+    padding: 30px 50px 50px;
+}
+.careerForm .formControl {
+    padding: 12px 20px;
+}
+.careerForm .fileSelector {
+    position: relative;
+    height: 48px;
+    background: #ffffff;
+    color: #BBBFCA;
+    font-size: 16px;
+    border: 0.8px solid #E0E0E0;
+    transition: all ease .4s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.careerForm .fileSelector span {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+.careerForm .fileSelector .fileInput {
+    opacity: 0;
+    visibility: hidden;
+}
+.careerForm .fileSelector span.fileIcon {
+    left: auto;
+    right: 25px;
+}
+.careerForm .fileSelector span div {
+    vertical-align: middle;
+}
+.careerForm .fileSelector label {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+}
+.careerForm .btnBlock {
+    text-align: center;
+    padding-top: 20px;
+}
+.careerForm .oxensBtn {
+    display: inline-block;
+    min-width: 330px;
+    padding: 12px 15px;
+    background-color: #2F6F68;
+    border: 1px solid #2F6F68;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+    border-radius: 6px;
+    font-family: 'ProximaNova-Semibold';
+}
+
+.careerForm .number {
+    position: relative;
+    background-image: url('https://oxens.ezxdemo.com/images/flag.svg');
+    padding-left: 70px;
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+.careerForm .number ~ label {
+    left: 50px;
+}
+.borderLeft {
+    position: absolute;
+    left: 57px;
+    top: 8px;
+    width: 1px;
+    height: 32px;
+    background-color: #BBBFCA;
+    content: "";
+    z-index: 1;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:767px) {
+    .careersWrap {
+        padding: 30px 0;
+    }
+    .careerForm {
+        padding: 30px;
+    }
+}
+@media screen and (max-width:575px) {
+    .careerForm {
+        padding: 15px;
+    }
+}
+@media screen and (max-width:479px) {
+    .careerForm .oxensBtn {
+        min-width: 100%;
+    }
+}

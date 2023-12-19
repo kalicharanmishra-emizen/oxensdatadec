@@ -1,0 +1,159 @@
+.modelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.modelHeaderTitle {
+  font-size: 16px;
+  color: black;
+}
+
+.bg-close {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewbox='0 0 40 40'%3E%3Cpath d='M 10,10 L 30,30 M 30,10 L 10,30' stroke='black' stroke-width='4' stroke-linecap='butt' /%3E%3C/svg%3E");
+  background-size: 100%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.modelBody {
+  /* margin: 0 10px 0 10px; */
+  /* padding: 10px 0; */
+}
+
+.bodyTopHeader {
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* gap: 10px; */
+  /* padding: 5px 10px; */
+}
+
+.bodyTopHeader .itemImageBox {
+  /* flex-grow: 1; */
+}
+
+.bodyTopHeader .itemDetails {
+  /* flex-grow: 2; */
+}
+
+.allItemsBody {
+  padding: 0 0 0 26px;
+}
+
+.itemPrice {
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+}
+.itemDescription {
+}
+
+.modelFooter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 5px 10px;
+}
+.modelFooter .footerQuantityBtn {
+  flex-grow: 1;
+}
+.modelFooter .footerADDtoCartBtn {
+  flex-grow: 2;
+}
+.modelFooter .footerADDtoCartBtn a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: #2b9d91;
+  color: white;
+  padding: 5px 0;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.modelItemTitle {
+  padding: 10px 0;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* radio or checkbox designe  start */
+
+.cat {
+  margin: 4px;
+  /* background-color: #dff1ff; */
+  color: black;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  overflow: hidden;
+  /* float: left; */
+}
+
+.cat label {
+  float: left;
+  line-height: 3em;
+  width: auto;
+  height: 3em;
+  /* background-color: #2b9d91; */
+  color: #2b9d91;
+  font-weight: 700;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 5px;
+  cursor: pointer;
+  border: 1px solid #2b9d91;
+}
+
+.cat label span {
+  text-align: center;
+  padding: 3px 0;
+  display: block;
+}
+
+.cat label input {
+  position: absolute;
+  display: none;
+  color: #fff;
+}
+/* selects all of the text within the input element and changes the color of the text */
+.cat label input + span {
+  color: #2b9d91;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 13px;
+  font-weight: 700;
+
+}
+
+/* This will declare how a selected input will look giving generic properties */
+.cat input:checked + span{
+  color: #ffffff;
+  font-weight: 700;
+  /* text-shadow: 0 0 6px rgba(0, 0, 0, 0.8); */
+}
+
+.cat input:checked + span{
+  background-color: #2b9d91;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.cat input:checked + span p{
+  font-weight: 700;
+}
+
+/* radio or checkbox designe  end */

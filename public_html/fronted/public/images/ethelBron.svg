@@ -1,0 +1,7 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns-xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" view-box="0 0 612 396" style="enableBackground:new 0 0 612 396" xml-space="preserve"><style type="text/css">
+
+  .st0{opacity:0.5;fill:#2E3192;}
+    .st0,.st1 {opacity:0.5;transition: transform 2s ease;}
+    svg:hover .st0{transform: translateX(50%);}
+    svg:hover .st1{transform: translateX(-50%);}
+  </style><circle class="st0" cx="103.6" cy="153.7" r="44.5"/><circle class="st1" cx="508.6" cy="242.7" r="44.5"/></svg>

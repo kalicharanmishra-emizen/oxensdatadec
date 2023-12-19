@@ -1,0 +1,653 @@
+.detailBanner {
+    background-color: #fff;
+}
+.detailBanner .bannerImgae {
+    height: 360px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border:1px solid #C2C2C2;
+}
+.detailBanner .innerRow .bannerImgae {
+    height: 175px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tableWrap {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.alignWrap {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.detailBanner .innerRow {
+    margin: 0;
+}
+.detailBanner .innerRow .bannerImgae {
+    margin-left: 13px;
+    margin-bottom: 10px;
+}
+.bannerImgae .alignWrap {
+    text-align: center;
+}
+.bannerImgae .offPrice {
+    position:relative;
+    text-align: center;
+    min-width: 226px;
+    display: inline-block;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 24px 14px 16px;
+}
+.bannerImgae .offPrice:before {
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    width: 96%;
+    height: 96%;
+    border: 1px solid #F4FF00;
+    content: "";
+    z-index: 1;
+    transform: translateY(-50%);
+    border-radius: 4px;
+}
+.bannerImgae .offPrice h6 {
+    color: #F4FF00;
+    font-size: 46px;
+    line-height: 36px;
+    font-family: 'ProximaNova-Bold';
+    padding-bottom: 0;
+    text-transform: uppercase;
+}
+.bannerImgae .offPrice p {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 0;
+    letter-spacing: -0.0233em;
+    text-transform: capitalize;
+    
+}
+.bannerImgae .offPrice span {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.0233em;
+    color: #FFFFFF;
+}
+.listingSection {
+    background-color: #fff;
+    padding: 30px 0 85px;
+}
+
+.restoInfo {
+    width: 90%;
+    border-radius: 6px;
+    border: 0.8px solid #E0E0E0;
+    background-color: #fff;
+    padding: 25px 30px 20px;
+}
+.restoInfo h5 {
+    color: #333333;
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 0;
+}
+.restoInfo p {
+    color: #9f9f9f;
+    padding-bottom: 10px;
+}
+.restoInfo span {
+    color: #333;
+    font-size: 16px;
+    line-height: 19px;
+}
+.restoInfo span a {
+    display: inline-block;
+    margin: 0 3px;
+    color: #2F6F68;
+}
+.restoRating img {
+    width: 18px;
+}
+.restobottomInfo {
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 0.8px solid #E0E0E0;
+    background-color: #F7F7F7;
+    padding: 10px 20px;
+}
+.restoInfo {
+    margin-top: -95px;
+    margin-bottom: 20px;
+}
+.restoInfo .btnBlock {
+    max-width: 230px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.restoInfo .btnBlock form {
+    width: 100%;
+}
+.restoInfo .btnBlock .btnradio {
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.restoInfo .btnBlock .btnradio label {
+    flex: 0 0 auto;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.restoInfo .btnBlock .btnradio label .radioBtn {
+    background-color: #F7F7F7;
+    border: 1px solid #E0E0E0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #131313;
+    font-size: 16px;
+    padding: 10px;
+}
+.restoInfo .btnBlock .btnradio label input:checked ~ .radioBtn {
+    background-color: #2F6F68;
+    color: #fff;
+    border-color: #2F6F68;
+}
+.restoInfo .btnBlock .btnradio label .radioBtn .radiotext {
+    color: #131313;
+}
+.restoInfo .btnBlock .btnradio label input:checked ~ .radioBtn .radiotext {
+    color: #fff;
+}
+.restoInfo .btnBlock .btnradio label:nth-child(1) .radioBtn {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.restoInfo .btnBlock .btnradio label:nth-child(2) .radioBtn {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.infoRight {
+    text-align: right;
+}
+.restoMainInfo {
+    padding: 35px 0;
+}
+.restoMainInfo h4 {
+    font-size: 24px;
+    color: #333333;
+    line-height: 29px;
+}
+
+.restobottomInfo [class*="col-"]:last-child {
+    text-align: right;
+}
+.restobottomInfo p {
+    padding-bottom: 0;
+}
+.singalItem {
+    padding: 30px 0;
+    border-bottom: 1px solid #E0E0E0;
+}
+.restoMainInfo .singalItem .imgBlock {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    background-color: #F3F3F3;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.restoMainInfo .singalItem .itemInfo {
+    overflow: hidden;
+    padding-left: 30px;
+}
+.singalItem .itemInfo h6 {
+    font-size: 20px;
+    color: #333333;
+    padding-bottom: 5px;
+}
+.singalItem .itemInfo p a {
+    color: #4f4f4f;
+}
+.singalItem .itemInfo .itemPrice {
+    color: #131313;
+    font-size: 18px;
+
+}
+.restoTitle .info div {
+    vertical-align: middle;
+  }
+.singalItem .addBtnBlock a {
+    display: inline-block;
+    min-width: 72px;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-align: center;
+    color: #2F6F68;
+    border-radius: 3px;
+    border: 0.8px solid #E0E0E0;
+    background-color: #fff;
+}
+.singalItem .addBtnBlock span.addBtnBlockSpan {
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BDBDBD;
+}
+/* Modal CSS */
+.ModalCustom {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 6px;
+}
+.themeBtn {
+    display: inline-block;
+    min-width: 100%;
+    padding: 12px 15px;
+    background-color: #2F6F68;
+    border: 1px solid #2F6F68;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+    border-radius: 6px;
+    font-family: 'ProximaNova-Semibold';
+}
+.themeBtn:hover, .themeBtn:focus {
+    color: #2F6F68;
+    background-color: #fff;
+    border: 1px solid #2F6F68;
+}
+.modalHeader {
+    padding: 0;
+}
+
+.ModalCustom .titleOptional {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'ProximaNova-Bold';
+    color: #333;
+    padding-bottom: 15px;
+}
+.ModalCustom .titleOptional span {
+    color: #828282;
+    font-family: 'ProximaNova-Regular';
+}
+.modalHeader span {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'ProximaNova-Regular';
+    color: #828282;
+}
+.customizePrice {
+    float: right;
+    color: #828282;
+    font-size: 18px;
+    font-family: 'ProximaNova-Regular';
+}
+.checkInput {
+    opacity: 0;
+    visibility: hidden;
+    position:absolute;
+  }
+  .checkmark {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .checkmark::after {
+    left: 10px;
+    top: 6px;
+    width: 6px;
+    height: 10px;
+    border: solid #2F6F68;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0;
+    content: "";
+    margin-left: 5px;
+    margin-top: 1px;
+  }
+  .checkInput:checked ~ .checkmark {
+    border-color: #2F6F68;
+  }
+  .checkInput:checked ~ .checkmark::after {
+    display: block;
+    opacity: 1;
+  }
+  .checkInput ~ .checktext, .checkInput ~ .radiotext {
+    display: inline-block;
+    margin-left: 20px;
+    color: #333;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  .checkboxGroup label {
+    cursor: pointer;
+  }
+  .checkInput:checked ~ .checktext {
+    color: #2F6F68;
+  }
+  .infoLink div {
+    vertical-align: middle;
+  }
+  .infoLink {
+      color: #4F4F4F;
+      font-size: 16px;
+  }
+  .infoLink {
+      color: #4f4f4f !important;
+  }
+  body .infoLink span {
+      color: #2F6F68;
+  }
+  .ModalCustomInfo .modalBody {
+    height: 565px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    padding: 20px 40px;
+  }
+  .ModalCustomInfo .modalHeader h5 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0;
+    font-size: 24px;
+  }
+  .ModalCustomInfo .modalHeader {
+      padding: 20px 15px;
+      margin: 0 40px;
+  }
+  .ModalCustomInfo {
+      max-width: 727px;
+      background-color: #fff;
+  }
+  .ModalCustomInfo .modalBody h6 {
+    font-size: 22px;
+    margin-top: 5px;
+  }
+  .ModalCustomInfo .modalBody p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .ratingLink {
+      display: inline-block;
+      margin: 15px 0;
+  }
+  .ratingLink, .ratingLink:hover, .ratingLink:focus {
+      color: #2F6F68;
+      font-size: 22px;
+  }
+  .ratingLink div {
+      margin-right: 10px !important;
+  }
+  .contactLink {
+    font-size: 18px;
+    color: #828282;
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0;
+  }
+  .contactLink div {
+      margin-right: 10px !important;
+      vertical-align: middle;
+  }
+  .modalFooter {
+      padding: 25px 15px;
+      box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  .customerReview {
+      padding: 30px 0;
+      background-color: #fff;
+  }
+  .customerReview .reviewWrap img {
+      width: 18px !important;
+      margin-right: 3px !important;
+  }
+  .customerReview .reviewWrap h5 {
+    font-size: 18px;
+    display: inline-block;
+  }
+  .reviewDate {
+      float: right;
+      font-size: 16px;
+      color: #BDBDBD;
+  }
+  .customerReview h3 {
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 30px !important;
+  }
+  .customerReview h3 span {
+      color: #828282;
+  }
+  .customerReview .reviewWrap {
+      padding: 15px;
+      border-bottom: 1px solid #e0e0e0;
+  }
+  .customerReview .btnBlock,.restoMainInfo .btnBlock {
+      text-align: center;
+      padding: 30px 15px 0
+  }
+  .customerReview .oxensBtn,.restoMainInfo .oxensBtn {
+    display: inline-block;
+    min-width:180px;
+    padding: 12px 15px;
+    background-color: #2F6F68;
+    border: 1px solid #2F6F68;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    transition: all ease .4s;
+    border-radius: 6px;
+    font-family: 'ProximaNova-Semibold';
+  }
+  .customerReview .oxensBtn:hover, .customerReview .oxensBtn:focus {
+    background-color: #fff;
+    color: #2F6F68;
+    border-color: #2F6F68;
+  }
+
+
+
+  .closeButton {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    width: 26px !important;
+    height: 20px;
+    background: #fff;
+    position: relative;
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+    cursor: pointer;
+  }
+  .closeButton:before, .closeButton:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 2px;
+    background: #828282;
+    content: "";
+    -webkit-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+    -webkit-transform: translateY(7px) rotateZ(-45deg);
+    -ms-transform: translateY(7px) rotateZ(-45deg);
+    transform: translateY(7px) rotateZ(-45deg);
+    
+   
+  }
+  .closeButton:after {
+    top: 14px;
+    -webkit-transform: translateY(-7px) rotateZ(45deg);
+    -ms-transform: translateY(-7px) rotateZ(45deg);
+    transform: translateY(-7px) rotateZ(45deg);
+  }
+
+
+  .ModalCustomInfo .closeButton {
+      top: 20px;
+      right: 20px;
+  }
+
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1500px) { 
+    .listingSection .sidebarCol {
+        width: 23%;
+    }
+    .listingSection .rightCol {
+        width: 77%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .restoInfo {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .restoInfo {
+        padding: 20px 15px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .detailBanner .bannerImgae {
+        height: 250px;  
+    }
+    .detailBanner .innerRow .bannerImgae {
+        height: 100px;
+        margin: 0 2px 10px;
+    }
+    .restoInfo {
+        margin-top: 10px;
+    }
+    .listingSection {
+        padding: 10px 0 30px;
+    }
+    .restoMainInfo h4 {
+        margin-bottom: 0 !important;
+    }
+    .customerReview h3 {
+        font-size: 32px;
+        line-height: normal;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .restoMainInfo .singalItem .imgBlock {
+        width: 90px;
+        height: 90px;
+    }
+    .restoMainInfo .singalItem .itemInfo {
+        padding-left: 10px;
+    }
+    .singalItem {
+        padding: 15px 0;
+    }
+    .ModalCustomInfo {
+        margin: 15px;
+    }
+    .customerReview h3 {
+        font-size: 28px;
+    }
+    .customerReview {
+        padding: 15px 0;
+    }
+    .themeBtn {
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width: 575px) {
+    .addBtnBlock {
+        text-align: right;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: flex-end;
+    }
+    .addBtnBlock .addBtnBlockSpan {
+        margin-top: 10px;
+    }
+    .infoRight {
+        text-align: left;
+        margin-top: 10px;
+    } 
+    .restobottomInfo [class*="col-"]:last-child {
+        text-align: left;
+    }
+    .restoInfo h5 {
+        font-size: 22px;
+    }
+    .ModalCustomInfo .modalBody {
+        padding: 15px;
+    }
+    .ModalCustomInfo .modalHeader {
+        margin: 0 15px;
+    }
+    .ModalCustomInfo .modalBody p  {
+        font-size: 16px;
+    }
+    .customerReview h3 {
+        font-size: 26px;
+        margin-bottom: 15px !important;
+    }
+    .themeBtn {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    
+}
+@media screen and (max-width: 479px) {
+    .detailBanner .innerRow .bannerImgae {
+        height: 70px;
+    }
+    .restobottomInfo {
+        padding: 10px;
+    }
+    .restoInfo h5 {
+        font-size: 20px;
+    }
+    .restoMainInfo .singalItem .imgBlock {
+        width: 75px;
+        height: 75px;
+    }
+    .customerReview h3 {
+        font-size: 22px;
+    }
+    .themeBtn {
+        font-size: 14px;
+    }
+}

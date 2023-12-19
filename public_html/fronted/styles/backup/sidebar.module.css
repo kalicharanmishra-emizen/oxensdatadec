@@ -1,0 +1,234 @@
+.sidebar {
+  border-right: 1px solid #C2C2C2;
+  height: 100%;
+}
+.sidebar ul li {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #E0E0E0;
+}
+.sidebar ul li:last-child {
+  border: none;
+}
+.sidebar ul li a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 12px 0;
+  font-size: 18px;
+  font-family: 'ProximaNova-Semibold';
+  color: #333;
+  margin-bottom: 20px;
+}
+.sidebar ul li svg {
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  width: 12px;
+  height: 20px;
+  display: inline-block;
+}
+.form-check {
+  padding: 10px 0 10px 1.25rem;
+}
+.checkInput {
+  opacity: 0;
+  visibility: hidden;
+  position:absolute;
+}
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  line-height: 14px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.checkmark::after {
+  left: 10px;
+  top: 6px;
+  width: 6px;
+  height: 10px;
+  border: solid #2F6F68;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  opacity: 0;
+  content: "";
+  /* margin-left: 5px;
+  margin-top: 1px; */
+}
+.checkInput:checked ~ .checkmark {
+  border-color: #2F6F68;
+}
+.checkInput:checked ~ .checkmark::after {
+  display: inline-block;
+  vertical-align: middle;
+  opacity: 1;
+}
+.checkInput ~ .checktext, .checkInput ~ .radiotext {
+  display: inline-block;
+  margin-left: 20px;
+  color: #828282;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.checkboxGroup label {
+  cursor: pointer;
+}
+.checkInput:checked ~ .checktext {
+  color: #2F6F68;
+}
+.radioBlock  Label {
+  position: relative;
+}
+.radioBlock .FormGroup {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 0;
+  padding: 30px 0;
+}
+.radioBlock .FormGroup Label {
+  flex: 0 0 50%;
+  width: 50%;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+/* .radioBlock .FormGroup Label:first-child:after {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 1px;
+  height: 27px;
+  background-color: #E0E0E0;
+  content: '';
+  z-index: 1;
+  transform: translateY(-50%);
+} */
+.radioBlock .FormGroup Label .checkmark {
+  left: 15px;
+  border-radius: 100%;
+  border: 1.5px solid #E0E0E0;
+}
+.radioBlock .FormGroup Label .checkmark:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #2F6F68;
+  /* margin-left: 3px;
+  margin-top: 3px; */
+}
+.radioBlock .FormGroup Label .checkInput:checked ~ .checkmark {
+  border-color: #2F6F68;
+}
+.radioBtn {
+  background-color: #fff;
+  border:1px solid #E0E0E0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  
+}
+.radioBlock label .radioBtn {
+  border-radius: 4px 0px 0px 4px;
+}
+.radioBlock label:last-child .radioBtn {
+  border-radius: 0 4px 4px 0;
+}
+.sidebar .radioBtn .radiotext {
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  padding: 18px 15px;
+  cursor: pointer;
+  color: #bcbcbc;
+  font-size: 16px;
+}
+.radioBlock .FormGroup .radiotext {
+  color: #333;
+}
+.btnradio {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 15px;
+}
+.btnradio Label {
+  flex: 0 0 50%;
+  width: 50%;
+  max-width: 100%;
+}
+.btnradio Label .checkInput:checked ~ .radioBtn {
+  background-color: #2F6F68;
+  border-color: #2F6F68;
+}
+.sidebar .checkInput:checked ~ .radioBtn .radiotext {
+  color: #fff;
+}
+.sidebar ul {
+  padding-right: 15px;
+}
+.filterBtn {
+  display: none;
+}
+.sidebar ul li label {
+  cursor: pointer;
+}
+
+
+
+/* Responsive CSS */
+@media screen and (max-width:1400px) {
+  .checkInput ~ .checktext, .checkInput ~ .radiotext {
+    font-size: 14px;
+    padding-left: 5px;
+    margin-left: 10px;
+  }
+  .checkmark {
+    width: 12px;
+    height: 12px;
+  }
+  .radioBlock .FormGroup Label .checkmark:after {
+    width: 6px;
+    height: 6px;
+    margin-left: 0px;
+    margin-top: -6px;
+  }
+  .checkmark:after {
+    width: 6px;
+    height: 9px;
+    margin-left: 0px;
+    margin-top: -9px;
+  }
+
+}
+@media screen and (max-width:991px) {
+  .filterBtn {
+    display: inline-block;
+    padding: 12px 15px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #2F6F68;
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+  }
+  .sidebar {
+    border: none;
+  }
+}

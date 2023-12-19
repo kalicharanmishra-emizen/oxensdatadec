@@ -1,0 +1,25 @@
+
+  .modelHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: aliceblue;
+  }
+  .modelHeaderTitle {
+    font-size: 16px;
+    color: black;
+  }
+  .bg-close {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40px' height='40px' viewbox='0 0 40 40'%3E%3Cpath d='M 10,10 L 30,30 M 30,10 L 10,30' stroke='black' stroke-width='4' stroke-linecap='butt' /%3E%3C/svg%3E");
+    background-size: 100%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+  }

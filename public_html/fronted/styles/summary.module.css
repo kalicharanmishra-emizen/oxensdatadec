@@ -1,0 +1,331 @@
+.detailBanner {
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fff;
+  padding: 15px 0;
+}
+.detailBanner .detailBlock {
+  padding: 0 25px;
+}
+.orderDetails {
+  background-color: #fff;
+  padding: 20px 0 35px;
+}
+.orderDetails h6 {
+  font-size: 24px;
+  padding-bottom: 35px;
+}
+.addressInfo {
+  display: inline-block;
+  width: 90%;
+  border-radius: 6px;
+  border: 1px solid #E0E0E0;
+  padding: 15px 20px;
+}
+.selactPayment {
+  border: 1px solid #E0E0E0;
+  display: inline-block;
+  width: 163px;
+  padding: 22px 8px;
+  border-radius: 6px;
+}
+.selactPayment p {
+  font-size: 18px;
+  color: #333;
+  font-family: 'ProximaNova-Semibold';
+  padding-bottom: 0;
+  line-height: normal;
+}
+.addressInfo h6 {
+  padding-bottom: 10px;
+}
+.paymentBlock .delivery {
+  border: 0.8px solid #E0E0E0;
+  border-radius: 6px;
+}
+.orderItem {
+	padding: 15px 20px 5px;
+	background-color: #F1F1F1;
+  }
+  .orderItem span {
+	color: #828282;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: inline-block;
+	width: 100%;
+	font-size: 20px;
+  }
+  .orderItem h6 {
+	font-size: 18px;
+	padding-bottom: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
+  .orderItem p {
+	font-size: 13px;
+	color: #4F4F4F;
+	padding-bottom: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
+  .itemDetails {
+	  border-top: 1px solid #e0e0e0;
+	  margin: 0 20px;
+	  padding: 15px 0;
+  }
+  .itemDetails h6 {
+	font-size: 14px;
+	padding-bottom: 0;
+  }
+  .itemDetails .itemPrice {
+	font-size: 20px;
+	font-family: 'ProximaNova-Semibold';
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 5px;
+  }
+  .itemDetails .variables {
+	  line-height: 16px;	
+	  padding-bottom: 0;  
+  }
+  .itemDetails .variables .verSingal {
+	display: inline-block;
+	width: 100%;
+	font-size: 13px;
+	line-height: 16px;
+	color: #828282;
+
+  }
+  .itemDetailsBlock {
+	  height: 305px;
+	  overflow-y: auto;
+	  scrollbar-color: #c1c1c1 #f0f0f0;
+		scrollbar-width: thin;
+  }
+  .delivery .deliveryInfo h6 {
+    font-size: 16px;
+    color: #2F6F68;
+    padding: 20px 25px;
+    font-family: 'ProximaNova-Regular';
+  }
+  .delivery .deliveryInfo h6 span {
+    float: right;
+    color: #131313;
+    font-family: 'ProximaNova-Semibold';
+    cursor: pointer;
+  }
+
+
+
+
+  .delivery .subtotal {
+    border-top: 0.8px solid #E0E0E0;
+    border-radius: 6px;
+    padding: 20px 25px;
+  }
+  .delivery .subtotal ul li {
+    color: #333333;
+    font-size: 18px;
+    padding-bottom: 25px;
+  }
+  .delivery .subtotal ul li div {
+    vertical-align: middle;
+  }
+  .delivery .subtotal ul li span {
+    float: right;
+    position: relative;
+  }
+  .delivery .subtotal ul li span.mrp {
+    color: #2F6F68;
+  }
+  .delivery .subtotal ul li span.tip .formCantrol {
+    border: 0.8px solid #E0E0E0;
+    border-radius: 4px;
+    padding: 0 6px 0 20px;
+    width: 57px;
+    text-align: left;
+    height: 27px !important;
+    color: #000;
+  }
+  .delivery .subtotal ul li span.currency {
+    position: absolute;
+    left: 7px;
+    top: 0;
+    content: '';
+    float: none;
+  }
+  .delivery .request .formCantrol {
+    padding: 10px 15px;
+  }
+  .delivery .request .formCantrol:focus {
+    border-color: #2f6f68;
+  }
+  .delivery .totalInfo {
+    padding: 15px 0;
+    margin: 30px 0;
+    border-top: 0.8px dashed #E0E0E0;
+    border-bottom: 0.8px dashed #E0E0E0;  
+  }
+  .delivery .totalInfo h4 {
+    color: #333333;
+    font-size: 22px;
+    padding-bottom: 0;
+    font-family: 'ProximaNova-Bold';
+  }
+  .delivery .totalInfo h4 span {
+    float: right;
+  }
+  .delivery .subtotal .btnBlock a {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    background-color: #2F6F68;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #2F6F68;
+    transition: all ease .4s;
+  }
+  .delivery .subtotal .btnBlock a:hover {
+    background-color: #fff;
+    color: #2F6F68;
+  }
+  .delivery .subtotal ul li strong {
+    padding-right: 25px;
+    font-weight: 300;
+    margin-top: -10px;
+  }
+  
+  .delivery .subtotal ul li .serviceFree {
+    padding-right: 13px;
+    font-weight: 300;
+    
+  }
+  
+  .orderSpan {
+    color: #2F6F68;
+    font-family: 'ProximaNova-Regular';
+    cursor: pointer;
+  }
+  .orderSpan div {
+    vertical-align: middle;
+    top: -2px;
+    margin-right: 2px !important;
+  }
+  .signalItemQty {
+    text-align: right;
+  }
+  .signalItemQty span {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    color: #333;
+  }
+  .signalItemQty p {
+    font-size: 13px;
+    color: #828282;
+  }
+
+/* model css */
+.ModalPayment {
+	position: relative;
+	background-color: #2F6F68;
+	text-align: center;
+	max-width: 670px;
+	border-radius: 40px;
+	padding: 125px 0 0 0;
+}
+.ModalPayment:before {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 90%;
+	height: 90%;
+	background-image: url('https://oxens.ezxdemo.com/images/popup-background.svg');
+	content: '';
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.ModalPayment .ImgBlock {
+	margin-bottom: 40px;
+}
+.ModalPayment h6 {
+	color: #fff;
+	font-size: 46px;
+	padding-bottom: 0;
+}
+.ModalPayment p {
+	color: #fff;
+	font-size: 22px;
+}
+.ModalPayment .themeBtn {
+	background-color: #fff;
+	color: #2F6F68;
+	min-width: 365px;
+  display: inline-block;
+  padding: 12px 15px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: 'ProximaNova-Semibold';
+
+}
+.modalFooter {
+	padding: 25px 35px;
+	border-top:1px solid #1B5E56;
+  margin: 0 38px;
+}
+.modalFooter [class*="col-"] {
+	margin-bottom: 10px;
+}
+  @media screen and (max-width:991px) {
+    .paymentBlock {
+      padding-top: 30px;
+    }
+    .orderDetails h6 {
+      padding-bottom: 15px;
+      padding-top: 15px;
+    }
+  }
+
+
+  /* stripe model  */
+  
+/* model css */
+.paymentModal {
+	position: relative;
+	background-color: #f7f7f7;
+	text-align: center;
+	max-width: 670px;
+	border-radius: 25px;
+	padding: 0 0 0 0;
+}
+
+/* .paymentModal .ImgBlock {
+	margin-bottom: 40px;
+} */
+/* .paymentModal h6 {
+	color: #fff;
+	font-size: 46px;
+	padding-bottom: 0;
+}
+.paymentModal p {
+	color: #fff;
+	font-size: 22px;
+}
+.paymentModal .themeBtn {
+	background-color: #fff;
+	color: #2F6F68;
+	min-width: 365px;
+  display: inline-block;
+  padding: 12px 15px;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: 'ProximaNova-Semibold';
+
+} */
+

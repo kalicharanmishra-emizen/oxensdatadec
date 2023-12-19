@@ -1,0 +1,240 @@
+.banner {
+    background-color: #2F6F68;
+}
+.banner .number {
+    position: relative;
+    background-image: url('https://oxens.ezxdemo.com/images/flag.svg');
+    padding-left: 70px;
+    background-repeat: no-repeat;
+    background-position: 20px 50%;
+}
+.banner .borderLeft {
+    position: absolute;
+    left: 57px;
+    top: 50%;
+    width: 1px;
+    height: 32px;
+    background-color: #BBBFCA;
+    content: "";
+    z-index: 1;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 3px;
+}
+.banner .formControl {
+    padding: 12px 20px;
+    border-radius: 4px;
+    color: #828282;
+}
+.banner .formControl:hover, .banner .formControl:focus {
+    color: #828282;
+}
+.banner .form-control::placeholder {
+    color: #828282 !important;
+}
+.banner .form-control::placeholder {
+    color: #828282;
+}
+.banner .bannerForm {
+    padding: 35px 45px 65px 45px;
+}
+.banner .bannerForm h6 {
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+}
+.banner .imgBlock div {
+    width: 100%;
+}
+.banner .imgBlock img {
+    width: 100%;
+}
+.banner .imgBlock {
+    height: 100%;
+    background-image: url('https://oxens.ezxdemo.com/images/img4.svg');
+    background-position: center center;
+    background-size: 950px auto;
+    background-repeat: no-repeat;
+    background-color: #F7FFFE;
+}
+.bannerStyleTwo .imgBlock {
+    background-image: url('https://oxens.ezxdemo.com/images/img-5.svg');
+    background-size: cover;
+    background-position: center top;
+}
+.banner .btnBlock {
+    padding-top: 25px;
+    text-align: center;
+}
+.banner .btnBlock .oxensBtn {
+    display: inline-block;
+    min-width: 330px;
+    padding: 12px 15px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #2F6F68;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    -webkit-transition: all ease .4s;
+    transition: all ease .4s;
+    border-radius: 6px;
+    font-family: 'ProximaNova-Semibold';
+}
+
+.workUs {
+    background-color: #fff;
+    padding: 100px 0 50px;
+    text-align: center;
+  }
+  .workUs .workWrap .imgBlock {
+    margin-bottom: 25px;
+  }
+  .workUs h4 {
+    color: #000;
+    font-size: 28px;
+    line-height: 34px;
+    padding: 0 30px;
+}
+
+
+.workWith {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+.workWith .workWrap {
+    max-width: 985px;
+    margin: 0 auto;
+}
+.workWith h3 {
+    font-size: 55px;
+    color: #000;
+}
+.workWith .subtitle {
+    font-size: 22px;
+    color: #333333;
+    font-family: 'ProximaNova-Semibold';
+    margin-bottom: 10px !important;
+}
+.workUs .sectionTitle {
+    margin-bottom: 30px;
+}
+
+
+.callOut {
+    padding: 165px 0 100px;
+    background-image: url('https://oxens.ezxdemo.com/images/background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.callOut .callOutWrap {
+    max-width: 350px;
+    margin: 0 auto;
+}
+.callOut h5 {
+    font-size: 30px;
+    color: #2F6F68;
+    margin-bottom: 20px !important;
+}
+.callOut .btnBlock a {
+    margin-right: 10px;
+    display: inline-block;
+}
+.callOut .btnBlock a:last-child {
+    margin-right: 0;
+}
+
+
+@media screen and (max-width:1300px) {
+    .banner .bannerForm .btnBlock .oxensBtn {
+        min-width: 100%;
+    }
+}
+@media screen and (max-width:1300px) {
+    .banner .bannerForm .btnBlock .oxensBtn {
+        min-width: 320px;
+    }
+}
+@media screen and (max-width:1199px) {
+    .callOut .callOutWrap {
+        margin: 0;
+        margin-left: auto;
+        text-align: right;
+    }
+}
+@media screen and (max-width:991px) {
+    .workUs {
+        padding: 40px 0 20px;
+    }
+    .workUs [class*="col-"] {
+        margin-bottom: 15px;
+    }
+    .workUs h4 {
+        font-size: 22px;
+    }
+    .workUs .workWrap .imgBlock {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:767px) {
+    .banner .formControl {
+        padding: 12px 15px;
+    }
+    .banner .bannerForm {
+        padding :30px;
+    }
+    .banner .btnBlock {
+        padding-top: 15px;
+    }
+    .workWith h3 {
+        font-size: 34px;
+    }
+    .workWith .subtitle {
+        font-size: 18px;
+    }
+    .workWith .workWrap {
+        max-width: 100%;
+    }
+    .workWith {
+        padding: 30px 0;
+    }
+    .callOut {
+        padding: 80px 0;
+    }
+    .callOut h5 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:575px) {
+    .banner .bannerForm {
+        padding :30px 15px;
+    }
+    .workWith h3 {
+        font-size: 30px;
+    }
+    .callOut h5 {
+        margin-bottom: 0 !important;
+    }
+    .callOut h5 {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width:479px) {
+    .banner .bannerForm .btnBlock .oxensBtn {
+        min-width: 100%;
+    }
+    .workWith h3 {
+        font-size: 28px;
+    }
+    .callOut {
+        padding: 40px 0;
+    }
+    .callOut .btnBlock a {
+        max-width: 130px;
+    }
+    .callOut h5 {
+        font-size: 24px;
+    }
+}

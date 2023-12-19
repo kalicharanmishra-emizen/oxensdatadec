@@ -1,0 +1,200 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="description" content="">
+            <meta name="author" content="">
+            <title>::OXENS::</title>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body bgcolor="#f8f8f8">
+          <table width="750" border="0" cellspacing="0" cellpadding="0" style="margin: 50px auto; background-color: #fff;">
+            <tbody>    
+              <tr>
+                <td>
+                  <table width="750" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto;  border: 1px solid #c4c4c4; border-bottom: none;padding: 10px 0;">
+                    <tbody>
+                      <tr>
+                        <td align="center">
+                           <img src="<%= process.env.PUBLIC_FOLDER_URL+'logo_color.svg' %>" width="100px" alt="Logo"/>           
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <table width="750" border="0" cellspacing="0" cellpadding="0" style="border: 1px solid #c4c4c4; border-top: none; border-bottom: none; margin: 0 auto; background-color: #fff; padding: 20px 0 20px;">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <table width="710" border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto;">
+                            <tbody>
+                              <tr>
+                                <td align="left" style="padding: 15px;">
+                                  <h2>New Order recived</h2>
+                                  <!-- <p>Hope you are doing well, You can reset password from below link:</p> -->
+                                  <p>
+                                      Order No.
+                                    <span style="color: #ffffff; font-size: 18px; text-align: center; position: relative;outline: none; cursor: pointer; transition: all ease .4s; border-radius: 5px; background-color: #3e786d; text-decoration: none;min-width: 185px; padding: 11px 15px; display: inline-block;">
+                                        <%= orderNo %>
+                                    </span>
+                                </p>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>          
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin: 0 auto; padding: 20px 15px 15px; background-color: #091700;">
+                    <tr>
+                      <td>
+                        <span class="walkys" style="padding-top: 0px; color: #fff;"> 
+                           OXENS <script type="text/javascript">document.write(new Date().getFullYear())</script> © All Rights Reserved.</span>
+                      </td>
+                    </tr>
+                  </table>              
+                </td>
+              </tr>    
+            </tfoot>
+          </table>
+        
+          <style type="text/css">
+            /* Fonts CSS */
+            @font-face {
+                font-family: 'Gilroy-Regular';
+                src: url('./fonts/Gilroy-Regular.eot');
+                src:url('./fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+                    url('./fonts/Gilroy-Regular.woff2') format('woff2'),
+                    url('./fonts/Gilroy-Regular.woff') format('woff'),
+                    url('./fonts/Gilroy-Regular.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'Gilroy-Bold';
+                src: url('./fonts/Gilroy-Bold.eot');
+                src: url('./fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+                    url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+                    url('./fonts/Gilroy-Bold.woff') format('woff'),
+                    url('./fonts/Gilroy-Bold.ttf') format('truetype');
+                font-weight: bold;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'Gilroy-Light';
+                src: url('./fonts/Gilroy-Light.eot');
+                src: url('./fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+                    url('./fonts/Gilroy-Light.woff2') format('woff2'),
+                    url('./fonts/Gilroy-Light.woff') format('woff'),
+                    url('./fonts/Gilroy-Light.ttf') format('truetype');
+                font-weight: 300;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'Gilroy-Semibold';
+                src: url('./fonts/Gilroy-Semibold.eot');
+                src: url('./fonts/Gilroy-Semibold.eot?#iefix') format('embedded-opentype'),
+                    url('./fonts/Gilroy-Semibold.woff2') format('woff2'),
+                    url('./fonts/Gilroy-Semibold.woff') format('woff'),
+                    url('./fonts/Gilroy-Semibold.ttf') format('truetype');
+                font-weight: 600;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'Gilroy-Medium';
+                src: url('./Gilroy-Medium.eot');
+                src: url('./fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+                    url('./fonts/Gilroy-Medium.woff2') format('woff2'),
+                    url('./fonts/Gilroy-Medium.woff') format('woff'),
+                    url('./fonts/Gilroy-Medium.ttf') format('truetype');
+                font-weight: 500;
+                font-style: normal;
+            }
+            @font-face {
+                font-family: 'Gilroy-Thin';
+                src: url('Gilroy-Thin.eot');
+                src: url('fonts/Gilroy-Thin.eot?#iefix') format('embedded-opentype'),
+                    url('fonts/Gilroy-Thin.woff2') format('woff2'),
+                    url('fonts/Gilroy-Thin.woff') format('woff'),
+                    url('fonts/Gilroy-Thin.ttf') format('truetype');
+                font-weight: 100;
+                font-style: normal;
+            }
+            body {
+              margin:0px;
+              padding:0px;
+              font-family: 'Gilroy-Medium';
+              color: #515151;
+            }
+            span {
+              font-size: 16px;
+              display: inline-block;
+              font-family: 'Gilroy-Medium';
+              color: #fff;
+            }
+            h2 {
+              font-size: 24px; 
+              margin-bottom: 10px; 
+              font-family: 'Gilroy-Bold'; 
+            }
+            p {
+              padding-bottom: 10px;
+              font-size: 16px;
+              color: #515151;
+              font-family: 'Gilroy-Medium';
+            }
+            p strong {
+             padding-bottom: 15px;
+              font-size: 16px;
+              color: #000; 
+            }
+            .btn-style {
+              text-decoration: none;
+              background-color: #30db5b;
+              color: #fff;
+              font-size: 16px;
+              padding: 15px 15px;
+              min-width: 210px;
+              display: inline-block;
+              vertical-align: middle;
+              margin-bottom: 30px;
+              border-radius: 100px;
+            }
+            img {
+              display: inline-block;
+              vertical-align: middle;
+              padding-right: 8px;
+              margin-top: -4px;
+            }
+            .social-icon {
+              color: #fff;
+              display: inline-block;
+              padding: 0 2px;
+            }
+            .social-icon img {
+              padding-right: 0;
+            }
+            .footer-link a {
+              font-size: 14px;
+              text-decoration: none;
+              color: #fff;
+              margin-right: 3px;
+            }
+            .walkys {
+              color: #fff;
+              font-size: 14px;
+            }
+          </style>
+        </body>
+    </html>

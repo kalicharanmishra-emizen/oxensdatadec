@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\nimport { Fragment as _Fragment } from \"react/jsx-runtime\";\nimport React from 'react';\nimport Admin from '../../../layouts/Admin';\n\nfunction Edit() {\n  return /*#__PURE__*/_jsx(_Fragment, {});\n}\n\nEdit.layout = Admin;\nexport default Edit;","map":null,"metadata":{},"sourceType":"module"}

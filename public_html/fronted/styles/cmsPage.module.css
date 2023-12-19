@@ -1,0 +1,57 @@
+.cmsBanner {
+    padding: 80px 0;
+    background-color: #2F6F68;
+}
+.cmsBanner h2 {
+    color: #F4FF00;
+    padding-bottom: 0;
+    font-size: 40px;
+}
+.cmsBanner p, .cmsBanner span {
+    color: #fff;
+    font-size: 18px;
+}
+.cmsWrap {
+    padding: 20px 0;
+    background-color: #fff;
+}
+.cmsWrap h1, .cmsWrap h2, .cmsWrap h3, .cmsWrap h4, .cmsWrap h5, .cmsWrap h6 {
+    font-size: 24px;
+    color: #333333;
+    margin-top: 50px;
+}
+.cmsWrap ul {
+    padding-left: 15px;
+}
+.cmsWrap ul li {
+    list-style: outside;
+    color: #B0B0B0;
+    font-size: 18px;
+    padding: 15px 0 15px 20px;
+}
+.cmsWrapInner {
+    padding-right: 15px;
+    scrollbar-color:#2F6F68 rgba(196, 196, 196, 0.2);
+}
+
+
+@media screen and (max-width:767px) {
+    .cmsWrap h1, .cmsWrap h2, .cmsWrap h3, .cmsWrap h4, .cmsWrap h5, .cmsWrap h6 {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    .cmsWrap ul li {
+        font-size: 16px;
+        padding: 5px 0 5px 15px;
+    }
+}
+@media screen and (max-width:575px) {
+    .cmsWrap h1, .cmsWrap h2, .cmsWrap h3, .cmsWrap h4, .cmsWrap h5, .cmsWrap h6 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .cmsWrap ul li {
+        font-size: 16px;
+        padding: 5px 0 5px 15px;
+    }
+}
